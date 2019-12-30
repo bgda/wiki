@@ -1,4 +1,3 @@
-//window.onload = document.getElementById("fi").focus();
 
 function boton() {
     field = fi.value;
@@ -10,13 +9,9 @@ function boton() {
         document.getElementById("body").appendChild(imagen);
     }
 }
-
-var tg = document.getElementsByTagName("input")[0];
-window.onload = function ij(){tg.focus();}
-
-
-var chus = document.getElementById("di");
-
 /*
 <img src="ejemplo.jpg" id="efe" alt="">
-    <script src="pr.js"></script>*/
+<script src="pr.js"></script>*/
+window.onload=setTimeout(() => {
+    document.getElementsByTagName("input")[0].focus();
+}, 5);
