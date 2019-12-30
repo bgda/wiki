@@ -6,7 +6,7 @@ function boton() {
         r = document.getElementById("rem");
         document.getElementById("body").removeChild(r);
         var imagen = document.createElement("img");
-        imagen.src= "ejemplo.jpg";
+        imagen.src= "wiki master/wikip/ejemplo.jpg";
         document.getElementById("body").appendChild(imagen);
     }
 }
